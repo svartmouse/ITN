@@ -31,14 +31,14 @@ function MM_effectShake(targetElement)
     <td height="100"><img src="../Resources/banners/banner.png" width="1024" height="100" alt="Banner" /></td>
   </tr>
   <tr>
-    <td height="50" align="center" class="a img"><a href="../index.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/home.png" alt="Home"/></a> <a href="../weather.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/Weather.png" alt="Weather" /><a href="../sequences.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/sequences.png" alt="Sequences" /><a href="../proposal.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/proposal.png" alt="Proposal" /></a><a><a href="../coppywrite.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/coppywrite.png" alt="Coppy Write" /></a><a><a href="../mainvideo.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/mainvideo.png" alt="Main Video" /><a><a href="../review.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/review.png" alt="review" /></a></td>
+    <td height="50" align="center" class="a img"><a href="../index.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/home.png" alt="Home"/></a> <a href="../weather.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/Weather.png" alt="Weather" /><a href="../sequences.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/sequences.png" alt="Sequences" /><a href="../proposal.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/proposal.png" alt="Proposal" /></a><a><a href="../copyright.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/copyright.png" alt="Coppy Write" /></a><a><a href="../mainvideo.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/mainvideo.png" alt="Main Video" /><a><a href="../review.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/review.png" alt="review" /><a><a href="../assetstable.html" onmouseover="MM_effectShake(this)"><img src="../Resources/Buttons/Assetstable.png" alt="Assets Table" /></a></td>
   </tr>
   <tr>
     <td height="650" align="left" valign="top"><!-- TemplateBeginEditable name="body" -->
       <table width="1024" border="1" bordercolor="#FFFFFF" height="650">
         <tr>
-          <td width="150">&nbsp;</td>
-          <td width="500">&nbsp;</td>
+          <td width="200">&nbsp;</td>
+          <td width="824">&nbsp;</td>
         </tr>
       </table>
     <!-- TemplateEndEditable --></td>
