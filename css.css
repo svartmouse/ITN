@@ -1,0 +1,34 @@
+/* CSS Document */
+
+a img{ 
+border: none;
+}
+
+.BodyText{
+	font: "Comic Sans MS", cursive;
+	font-size: 18px;
+	color: #FFF;
+}
+
+
+.BodyTextCenterHeader{
+	font: "Comic Sans MS", cursive;
+	font-size: 24px;
+	color: #FFF;
+	text-align:center
+}
+.vid {
+	border: medium inset #FFF;
+}
+
+.BodyTextNonCenter{
+	font: "Comic Sans MS", cursive;
+	font-size: 18px;
+	color: #FFF;
+	text-align:left
+}
+
+.vidflash {
+	border: medium inset #FFF;
+	alignment-adjust:middle;
+}

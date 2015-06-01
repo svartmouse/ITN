@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Color RGB value represented in hex i.e. 0xRRGGBB.-->
+<!-- Boolean vaules are represented by true/false.-->
+<!-- If there is any xml parsing error in this file FlashDVD will fall back to default skin.-->
+<!-- If any of the attribute's value does not match to desired values, default value will be taken.-->
+<!-- Valid values for alpha are 0 (fully transparent) to 1 (fully opaque).-->
+<!-- all times are in seconds-->
+<FlashDVDTheme version='1.0'>
+	<UI usingThisThemeFile='true' show='true'> <!-- Values set using this file will only be effective iff usingThisThemeFile and show are true -->
+		<PlayerControlBar position='bottom' alpha='1' font='Geneva' alwaysDisableFullscreenButton='false'>  <!-- define player controlbar position using position attribute, values can be bottom and top. Left and right are not supported -->
+ 			<Color background='0x000000' foreground='0xFFFFFF'/>  <!-- By dafault background is black and foreground is while.-->
+			<Tooltip show='true' hideDelay='5' showDelay='1'/>
+			<Timer mouseIdleTime='3' fadeOutTime='2'/> 
+			<!-- mouseIdleTime - duration of mouse idle time in seconds after which player control bar starts fading out.-->
+			<!-- fadeOutTime - duration of fading in seconds.-->
+		</PlayerControlBar>
+
+		<SearchBar show='true' alpha='1' font='Geneva'>
+			<Color background='0xB3B3B3' statusText='0x242424'/>
+			<NextButton show='true'/>
+			<PreviousButton show='true'/>
+		</SearchBar>
+
+		<SearchResult>
+			<ResultUI alpha='0.85' font='Geneva' textColor='0x000000'/>
+			<ProgressBar>
+				<Color speech='0xFF0000' subtitle='0x0000FF'/> <!-- Color of search result line displayed on progress bar-->
+			</ProgressBar>
+		</SearchResult>
+		
+		<Subtitle>
+			<Font name='Tahoma' size='18' color='0xFFFFFF' bold='false' italic='false' underline='false' bullet='false' align='center'/> <!--If font is not available in system it will fall back to "Times New Roman" on windows and "Times" on Mac OS X -->
+			<!-- Possible values for align are left, center, right. This alignment is with reference to Rect mentioned in subtitle xml file.-->
+		</Subtitle>
+
+		<Keyboard navigation='true'/> <!-- May not work in Fullscreen mode-->
+
+	</UI>
+</FlashDVDTheme>
